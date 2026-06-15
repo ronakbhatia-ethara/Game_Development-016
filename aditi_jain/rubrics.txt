@@ -1,0 +1,182 @@
+Rubrics for Pixel Drift Arcade
+Each item is scored from 0 to 10 by the rater. Each item ties back to one line in instructions.md.
+
+- id: single_html_page
+  description: The site is a single HTML page made of stacked sections.
+  score:
+  note:
+
+- id: sticky_nav_four_links
+  description: The sticky navigation bar links to four sections named Home, Games, Play, and Contact.
+  score:
+  note:
+
+- id: smooth_scroll
+  description: Clicking a navigation link scrolls smoothly to the matching section.
+  score:
+  note:
+
+- id: responsive_range
+  description: The site stays usable from a viewport width of 320 pixels up to 1920 pixels.
+  score:
+  note:
+
+- id: static_no_backend
+  description: The site runs from static files with no backend, no database, and no build step.
+  score:
+  note:
+
+- id: no_console_errors
+  description: Opening index.html in a modern browser shows the full site with no console errors.
+  score:
+  note:
+
+- id: hero_studio_name
+  description: The hero area shows the studio name Pixel Drift Studio.
+  score:
+  note:
+
+- id: hero_brand_line
+  description: The hero area shows the brand line Small games. Big drift.
+  score:
+  note:
+
+- id: hero_cta_button
+  description: The hero area shows one call to action button labelled Play Now.
+  score:
+  note:
+
+- id: play_now_scrolls
+  description: The Play Now button scrolls smoothly to the Play section.
+  score:
+  note:
+
+- id: catalogue_reads_json
+  description: The catalogue reads its content at runtime from the file data/games.json.
+  score:
+  note:
+
+- id: card_fields_shown
+  description: Each game card shows its title, genre, release year, a one line description, and a thumbnail colour block from the color field.
+  score:
+  note:
+
+- id: genre_filter_built_from_data
+  description: The genre filter options are built automatically from the values present in the dataset.
+  score:
+  note:
+
+- id: genre_filter_shows_matches
+  description: Selecting a genre shows only cards of that genre and selecting All shows every card.
+  score:
+  note:
+
+- id: card_count_updates
+  description: The card count visible on screen updates to match the active filter.
+  score:
+  note:
+
+- id: grid_shows_all_records
+  description: The grid shows all dataset records, at least ten, when the All filter is active.
+  score:
+  note:
+
+- id: game_on_canvas
+  description: The Play section embeds one playable mini-game drawn on an HTML5 canvas element.
+  score:
+  note:
+
+- id: arrow_key_control
+  description: The avatar moves left and right with the left and right arrow keys.
+  score:
+  note:
+
+- id: catch_adds_point
+  description: Catching a falling block adds one point to the current score.
+  score:
+  note:
+
+- id: miss_removes_life
+  description: A missed block that reaches the bottom edge removes one life.
+  score:
+  note:
+
+- id: three_lives_game_over
+  description: The player starts with three lives and a Game Over message appears when lives reach zero.
+  score:
+  note:
+
+- id: score_and_lives_visible
+  description: The current score and remaining lives are shown on screen during play at all times.
+  score:
+  note:
+
+- id: high_score_saved
+  description: The highest score is saved to local storage under the key pixelDriftHighScore and shown on screen.
+  score:
+  note:
+
+- id: high_score_persists
+  description: The saved high score persists after a full page refresh.
+  score:
+  note:
+
+- id: restart_resets
+  description: The Restart button resets score and lives to the starting values and begins a new round without reloading the page.
+  score:
+  note:
+
+- id: contact_static_block
+  description: The Contact section shows a contact block with the email placeholder hello@pixeldrift.studio and a one line invitation.
+  score:
+  note:
+
+- id: contact_form_fields
+  description: The contact form has a name field, an email field, a message field, and a Send button.
+  score:
+  note:
+
+- id: contact_form_validation
+  description: The form blocks submission when a field is empty and shows an inline message for the missing value.
+  score:
+  note:
+
+- id: contact_form_reset
+  description: On a valid submission the form clears its fields and shows an on screen thank you message.
+  score:
+  note:
+
+- id: canvas_size
+  description: The canvas drawing surface is 480 by 360 pixels and scales responsively to its container.
+  score:
+  note:
+
+- id: grid_column_counts
+  description: The card grid uses at least three columns at 1024 pixels and wider, at least two columns between 640 and 1023 pixels, and one column below 640 pixels.
+  score:
+  note:
+
+- id: vanilla_stack_only
+  description: The build uses only HTML, CSS, and vanilla JavaScript with no front end framework or UI library.
+  score:
+  note:
+
+- id: folder_structure
+  description: The delivered folder matches the required structure with css, js, data, and assets folders and a README.md.
+  score:
+  note:
+
+- id: naming_convention
+  description: All delivered file and folder names use lowercase kebab-case with no spaces.
+  score:
+  note:
+
+- id: no_real_brand
+  description: No real brand name, logo, character, or copyrighted artwork appears anywhere on the site.
+  score:
+  note:
+
+- id: readme_run_steps
+  description: A README.md explains how to open and run the static site.
+  score:
+  note:

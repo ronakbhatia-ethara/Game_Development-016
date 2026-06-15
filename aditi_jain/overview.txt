@@ -1,0 +1,3 @@
+Pixel Drift Arcade: A Browser Game Hub for an Indie Studio
+
+Pixel Drift Arcade is the public home for a small independent game studio that makes short, replayable browser games and wants one clean place to display them and grow a following. The site presents the studio, lists its games in a filterable grid, and embeds a working keyboard controlled mini-game so first time visitors can try something within seconds of arriving. The whole experience is responsive, runs from static files only, and stores a local high score in the browser so returning players see their best run.

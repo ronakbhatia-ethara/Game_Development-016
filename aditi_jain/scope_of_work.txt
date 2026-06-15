@@ -1,0 +1,3 @@
+Scope of Work
+
+The work covers a responsive multi-section website built with plain HTML, CSS, and vanilla JavaScript, including a hero header, an about block, a filterable game catalogue grid sourced from a provided JSON dataset, a contact section, and one embedded HTML5 canvas mini-game with score tracking saved through local browser storage. It also covers a sticky navigation bar, smooth in-page navigation between sections, a working game filter by genre, and a short written setup guide so the delivered files open and run with a double click or a simple local server. The deliverable is the complete static site folder with organised assets, commented code, and a README, with no servers, databases, accounts, or paid plugins involved.
